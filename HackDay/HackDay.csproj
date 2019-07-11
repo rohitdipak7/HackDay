@@ -120,9 +120,90 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\materialize.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="Content\style.min.css" />
+    <Content Include="Content\themes\all-themes.css" />
+    <Content Include="Content\themes\all-themes.min.css" />
+    <Content Include="Content\themes\theme-amber.css" />
+    <Content Include="Content\themes\theme-amber.min.css" />
+    <Content Include="Content\themes\theme-black.css" />
+    <Content Include="Content\themes\theme-black.min.css" />
+    <Content Include="Content\themes\theme-blue-grey.css" />
+    <Content Include="Content\themes\theme-blue-grey.min.css" />
+    <Content Include="Content\themes\theme-blue.css" />
+    <Content Include="Content\themes\theme-blue.min.css" />
+    <Content Include="Content\themes\theme-brown.css" />
+    <Content Include="Content\themes\theme-brown.min.css" />
+    <Content Include="Content\themes\theme-cyan.css" />
+    <Content Include="Content\themes\theme-cyan.min.css" />
+    <Content Include="Content\themes\theme-deep-orange.css" />
+    <Content Include="Content\themes\theme-deep-orange.min.css" />
+    <Content Include="Content\themes\theme-deep-purple.css" />
+    <Content Include="Content\themes\theme-deep-purple.min.css" />
+    <Content Include="Content\themes\theme-green.css" />
+    <Content Include="Content\themes\theme-green.min.css" />
+    <Content Include="Content\themes\theme-grey.css" />
+    <Content Include="Content\themes\theme-grey.min.css" />
+    <Content Include="Content\themes\theme-indigo.css" />
+    <Content Include="Content\themes\theme-indigo.min.css" />
+    <Content Include="Content\themes\theme-light-blue.css" />
+    <Content Include="Content\themes\theme-light-blue.min.css" />
+    <Content Include="Content\themes\theme-lime.css" />
+    <Content Include="Content\themes\theme-lime.min.css" />
+    <Content Include="Content\themes\theme-orange.css" />
+    <Content Include="Content\themes\theme-orange.min.css" />
+    <Content Include="Content\themes\theme-pink.css" />
+    <Content Include="Content\themes\theme-pink.min.css" />
+    <Content Include="Content\themes\theme-purple.css" />
+    <Content Include="Content\themes\theme-purple.min.css" />
+    <Content Include="Content\themes\theme-red.css" />
+    <Content Include="Content\themes\theme-red.min.css" />
+    <Content Include="Content\themes\theme-teal.css" />
+    <Content Include="Content\themes\theme-teal.min.css" />
+    <Content Include="Content\themes\theme-yellow.css" />
+    <Content Include="Content\themes\theme-yellow.min.css" />
     <Content Include="Global.asax" />
+    <Content Include="scripts\admin.js" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="scripts\demo.js" />
+    <Content Include="scripts\helpers.js" />
+    <Content Include="scripts\pages\cards\basic.js" />
+    <Content Include="scripts\pages\cards\colored.js" />
+    <Content Include="scripts\pages\charts\chartjs.js" />
+    <Content Include="scripts\pages\charts\flot.js" />
+    <Content Include="scripts\pages\charts\jquery-knob.js" />
+    <Content Include="scripts\pages\charts\morris.js" />
+    <Content Include="scripts\pages\charts\sparkline.js" />
+    <Content Include="scripts\pages\examples\forgot-password.js" />
+    <Content Include="scripts\pages\examples\profile.js" />
+    <Content Include="scripts\pages\examples\sign-in.js" />
+    <Content Include="scripts\pages\examples\sign-up.js" />
+    <Content Include="scripts\pages\forms\advanced-form-elements.js" />
+    <Content Include="scripts\pages\forms\basic-form-elements.js" />
+    <Content Include="scripts\pages\forms\editors.js" />
+    <Content Include="scripts\pages\forms\form-validation.js" />
+    <Content Include="scripts\pages\forms\form-wizard.js" />
+    <Content Include="scripts\pages\index.js" />
+    <Content Include="scripts\pages\maps\google.js" />
+    <Content Include="scripts\pages\maps\jvectormap.js" />
+    <Content Include="scripts\pages\medias\image-gallery.js" />
+    <Content Include="scripts\pages\tables\editable-table.js" />
+    <Content Include="scripts\pages\tables\jquery-datatable.js" />
+    <Content Include="scripts\pages\ui\animations.js" />
+    <Content Include="scripts\pages\ui\dialogs.js" />
+    <Content Include="scripts\pages\ui\modals.js" />
+    <Content Include="scripts\pages\ui\notifications.js" />
+    <Content Include="scripts\pages\ui\range-sliders.js" />
+    <Content Include="scripts\pages\ui\sortable-nestable.js" />
+    <Content Include="scripts\pages\ui\tooltips-popovers.js" />
+    <Content Include="scripts\pages\widgets\infobox\infobox-1.js" />
+    <Content Include="scripts\pages\widgets\infobox\infobox-2.js" />
+    <Content Include="scripts\pages\widgets\infobox\infobox-3.js" />
+    <Content Include="scripts\pages\widgets\infobox\infobox-4.js" />
+    <Content Include="scripts\pages\widgets\infobox\infobox-5.js" />
+    <Content Include="scripts\script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -142,7 +223,8 @@
     </Content>
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Login.cshtml" />
+    <Content Include="Views\Login\Login.cshtml" />
+    <Content Include="Views\Login\Register.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -153,7 +235,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Login\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
