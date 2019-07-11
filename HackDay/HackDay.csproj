@@ -120,6 +120,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Images\main-bg.jpg" />
     <Content Include="Content\materialize.css" />
     <Content Include="Content\style.css" />
     <Content Include="Content\style.min.css" />
