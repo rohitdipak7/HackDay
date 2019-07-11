@@ -1915,7 +1915,10 @@
   .bg-green .content .text,
   .bg-green .content .number {
     color: #fff !important; }
-
+.bg-green-heavy {
+    background-color: #1eb689 !important;
+    color: #fff !important;
+}
 .bg-light-green {
   background-color: #8BC34A !important;
   color: #fff; }
@@ -2831,7 +2834,7 @@ section.content {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  border-radius: 2px; }
+  border-radius: 5px; }
   .card .card-inside-title {
     margin-top: 25px;
     margin-bottom: 15px;
